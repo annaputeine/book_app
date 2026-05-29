@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 
 class BookListItem extends StatelessWidget {
   final Book book;
+  final int _averageRating;
 
-  const BookListItem({super.key, required this.book});
+  BookListItem({super.key, required this.book}) : _averageRating = book.averageRating;
 
   @override
   Widget build(BuildContext context) {
@@ -16,50 +17,82 @@ class BookListItem extends StatelessWidget {
             borderRadius: BorderRadius.circular(20.0),
             child: Image.network(
               book.coverImageUrl,
-              width: 75,
-              height: 75,
+              width: 80,
+              height: 88,
               fit: BoxFit.cover,
             ),
+          ),
+          SizedBox(
+            width: 20,
           ),
           Flexible(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Padding(
-                  padding: .all(10),
-                  child: Text(
-                    book.title,
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                Text(
+                  book.title,
+                  style: TextStyle(
+                    color: Colors.grey[900],
+                    fontWeight: .w600,
+                    fontSize: 18,
                   ),
                 ),
-                Padding(
-                  padding: EdgeInsetsGeometry.directional(
-                    start: 10,
-                    end: 10,
-                    top: 0,
-                    bottom: 10,
-                  ),
-                  child: Text(
-                    book.authors,
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                  ),
+                Text(
+                  book.authors,
+                ),
+                SizedBox(
+                  height: 12,
+                ),
+                Row(
+                  children: [
+                    _averageRating > 0
+                        ? _FilledStar()
+                        : _OutlinedStar(),
+                    _averageRating > 1
+                        ? _FilledStar()
+                        : _OutlinedStar(),
+                    _averageRating > 2
+                        ? _FilledStar()
+                        : _OutlinedStar(),
+                    _averageRating > 3
+                        ? _FilledStar()
+                        : _OutlinedStar(),
+                    _averageRating > 4
+                        ? _FilledStar()
+                        : _OutlinedStar(),
+                    Text(
+                      "(${book.ratingCount})",
+                      style: TextStyle(
+                        color: Color(0xFF8c6c0b),
+                        fontWeight: .w600,
+                        fontSize: 12,
+                      ),
+                    ),
+                  ],
                 ),
               ],
             ),
           ),
-          /*Text(
-            book.ratingCount,
-            style: TextStyle(
-              color: Colors.green[900],
-              fontWeight: FontWeight.bold,
-              fontSize: 15,
-            ),
-          ),
-          const SizedBox(width: 8),
-          const Icon(Icons.star, size: 24, color: Colors.deepPurple),*/
         ],
       ),
     );
+  }
+}
+
+class _FilledStar extends StatelessWidget{
+  const _FilledStar({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Icon(Icons.star, size: 16, color: Color(0xFF8c6c0b));
+  }
+}
+
+class _OutlinedStar extends StatelessWidget{
+  const _OutlinedStar({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Icon(Icons.star_border, size: 16, color: Color(0xFF8c6c0b));
   }
 }
