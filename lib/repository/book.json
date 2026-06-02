@@ -1,0 +1,78 @@
+{
+  "kind": "books#volume",
+  "id": "iO5pApw2JycC",
+  "etag": "iF+j/t4skBc",
+  "selfLink": "https://www.googleapis.com/books/v1/volumes/iO5pApw2JycC",
+  "volumeInfo": {
+    "title": "The Ivory Tower and Harry Potter",
+    "subtitle": "Perspectives on a Literary Phenomenon",
+    "authors": [
+      "Lana A. Whited"
+    ],
+    "publisher": "University of Missouri Press",
+    "publishedDate": "2004",
+    "description": "Now available in paper, The Ivory Tower and Harry Potter is the first book-length analysis of J. K. Rowling's work from a broad range of perspectives within literature, folklore, psychology, sociology, and popular culture. A significant portion of the book explores the Harry Potter series' literary ancestors, including magic and fantasy works by Ursula K. LeGuin, Monica Furlong, Jill Murphy, and others, as well as previous works about the British boarding school experience. Other chapters explore the moral and ethical dimensions of Harry's world, including objections to the series raised within some religious circles. In her new epilogue, Lana A. Whited brings this volume up to date by covering Rowling's latest book, Harry Potter and the Order of the Phoenix.",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_10",
+        "identifier": "0826215491"
+      },
+      {
+        "type": "ISBN_13",
+        "identifier": "9780826215499"
+      }
+    ],
+    "readingModes": {
+      "text": true,
+      "image": true
+    },
+    "pageCount": 436,
+    "printType": "BOOK",
+    "categories": [
+      "Juvenile Fiction"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 11,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "2.4.12.0.preview.3",
+    "panelizationSummary": {
+      "containsEpubBubbles": false,
+      "containsImageBubbles": false
+    },
+    "imageLinks": {
+      "smallThumbnail": "http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+      "thumbnail": "http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=iO5pApw2JycC&pg=PA261&dq=potter&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.lv/books?id=iO5pApw2JycC&dq=potter&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Ivory_Tower_and_Harry_Potter.html?hl=&id=iO5pApw2JycC"
+  },
+  "saleInfo": {
+    "country": "LV",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+  },
+  "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+      "isAvailable": true,
+      "acsTokenLink": "http://books.google.lv/books/download/The_Ivory_Tower_and_Harry_Potter-sample-epub.acsm?id=iO5pApw2JycC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+      "isAvailable": true,
+      "acsTokenLink": "http://books.google.lv/books/download/The_Ivory_Tower_and_Harry_Potter-sample-pdf.acsm?id=iO5pApw2JycC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=iO5pApw2JycC&hl=&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+  },
+  "searchInfo": {
+    "textSnippet": "... \u003cb\u003ePotter\u003c/b\u003e and the Transfiguration of Language Philip Nel Many have criticized the decision by Arthur A. Levine of Scholastic to translate the Harry \u003cb\u003ePotter\u003c/b\u003e books from British English into American English . The same month that Harry \u003cb\u003ePotter\u003c/b\u003e&nbsp;..."
+  }
+}

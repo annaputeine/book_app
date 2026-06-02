@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class BookListItem extends StatelessWidget {
   final Book book;
-  final int _averageRating;
+  final double? _averageRating;
 
   BookListItem({super.key, required this.book}) : _averageRating = book.averageRating;
 
@@ -43,33 +43,25 @@ class BookListItem extends StatelessWidget {
                 SizedBox(
                   height: 12,
                 ),
-                Row(
-                  children: [
-                    _averageRating > 0
-                        ? _FilledStar()
-                        : _OutlinedStar(),
-                    _averageRating > 1
-                        ? _FilledStar()
-                        : _OutlinedStar(),
-                    _averageRating > 2
-                        ? _FilledStar()
-                        : _OutlinedStar(),
-                    _averageRating > 3
-                        ? _FilledStar()
-                        : _OutlinedStar(),
-                    _averageRating > 4
-                        ? _FilledStar()
-                        : _OutlinedStar(),
-                    Text(
-                      "(${book.ratingCount})",
-                      style: TextStyle(
-                        color: Color(0xFF8c6c0b),
-                        fontWeight: .w600,
-                        fontSize: 12,
+                _averageRating == null
+                    ? Container()
+                    : Row(
+                        children: [
+                          _averageRating > 0 ? _FilledStar() : _OutlinedStar(),
+                          _averageRating > 1 ? _FilledStar() : _OutlinedStar(),
+                          _averageRating > 2 ? _FilledStar() : _OutlinedStar(),
+                          _averageRating > 3 ? _FilledStar() : _OutlinedStar(),
+                          _averageRating > 4 ? _FilledStar() : _OutlinedStar(),
+                          Text(
+                            "(${book.ratingCount})",
+                            style: TextStyle(
+                              color: Color(0xFF8c6c0b),
+                              fontWeight: .w600,
+                              fontSize: 12,
+                            ),
+                          ),
+                        ],
                       ),
-                    ),
-                  ],
-                ),
               ],
             ),
           ),
@@ -79,7 +71,7 @@ class BookListItem extends StatelessWidget {
   }
 }
 
-class _FilledStar extends StatelessWidget{
+class _FilledStar extends StatelessWidget {
   const _FilledStar({super.key});
 
   @override
@@ -88,7 +80,7 @@ class _FilledStar extends StatelessWidget{
   }
 }
 
-class _OutlinedStar extends StatelessWidget{
+class _OutlinedStar extends StatelessWidget {
   const _OutlinedStar({super.key});
 
   @override

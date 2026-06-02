@@ -1,4 +1,4 @@
-import 'package:books_app/repository/book_repository.dart';
+/*import 'package:books_app/repository/book_repository.dart';
 import 'package:books_app/model/book.dart';
 
 class InMemoryBookRepository implements BookRepository {
@@ -192,7 +192,8 @@ class InMemoryBookRepository implements BookRepository {
   ];
 
   @override
-  Future<List<Book>> getBooks(String query) {
+  Future<List<Book>> getBooks(String? query) {
+    query ?? "";
     if (query.trim().isEmpty) {
       return Future.value(_books);
     }
@@ -209,3 +210,4 @@ class InMemoryBookRepository implements BookRepository {
     );
   }
 }
+*/
