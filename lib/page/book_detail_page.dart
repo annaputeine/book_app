@@ -145,14 +145,23 @@ class _LinedTextBox extends StatelessWidget {
         child: Column(
           children: [
             Text(text),
-            Text(
-              number,
-              style: TextStyle(
-                color: Color(0xFF8c6c0b),
-                fontWeight: FontWeight.bold,
-                fontSize: 16,
-              ),
-            ),
+            number == 'null'
+                ? Text(
+                    "none",
+                    style: TextStyle(
+                      color: Color(0xFF8c6c0b),
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                    ),
+                  )
+                : Text(
+                    number,
+                    style: TextStyle(
+                      color: Color(0xFF8c6c0b),
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                    ),
+                  ),
           ],
         ),
       ),

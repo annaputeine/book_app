@@ -90,6 +90,11 @@ class _BooksSearchPageState extends State<BooksSearchPage> {
               child: FutureBuilder<List<Book>>(
                 future: _booksFuture,
                 builder: (context, snapshot) {
+                  print('state=${snapshot.connectionState}');
+                  print('hasData=${snapshot.hasData}');
+                  print('hasError=${snapshot.hasError}');
+                  print('data=${snapshot.data}');
+                  print('error=${snapshot.error}');
                   if (snapshot.connectionState == ConnectionState.waiting) {
                     return const Center(
                       child: CircularProgressIndicator(),

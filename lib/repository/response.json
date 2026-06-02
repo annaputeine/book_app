@@ -1,0 +1,788 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1000000,
+  "items": [
+    {
+      "id": "iO5pApw2JycC",
+      "volumeInfo":
+      {
+        "title": "The Ivory Tower and Harry Potter",
+        "subtitle": "Perspectives on a Literary Phenomenon",
+        "authors":
+        [
+          "Lana A. Whited"
+        ],
+        "publishedDate": "2004",
+        "description": "Now available in paper, The Ivory Tower and Harry Potter is the first book-length analysis of J. K. Rowling's work from a broad range of perspectives within literature, folklore, psychology, sociology, and popular culture. A significant portion of the book explores the Harry Potter series' literary ancestors, including magic and fantasy works by Ursula K. LeGuin, Monica Furlong, Jill Murphy, and others, as well as previous works about the British boarding school experience. Other chapters explore the moral and ethical dimensions of Harry's world, including objections to the series raised within some religious circles. In her new epilogue, Lana A. Whited brings this volume up to date by covering Rowling's latest book, Harry Potter and the Order of the Phoenix.",
+        "pageCount": 436,
+        "averageRating": 4.5,
+        "ratingsCount": 11,
+        "imageLinks":
+        {
+          "smallThumbnail": "http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "j38WTfgs8S8C",
+      "etag": "iDlY3BqnPDQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/j38WTfgs8S8C",
+      "volumeInfo": {
+        "title": "Potter's popular gardening, a manual",
+        "authors": [
+          "Potter and Clarke"
+        ],
+        "publishedDate": "1894",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OXFORD:602798202"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 142,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=j38WTfgs8S8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=j38WTfgs8S8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.lv/books?id=j38WTfgs8S8C&pg=PT3&dq=potter&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=j38WTfgs8S8C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=j38WTfgs8S8C"
+      },
+      "saleInfo": {
+        "country": "LV",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=j38WTfgs8S8C&rdid=book-j38WTfgs8S8C&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "LV",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.lv/books/download/Potter_s_popular_gardening_a_manual.epub?id=j38WTfgs8S8C&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=j38WTfgs8S8C&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003ePotter\u003c/b\u003e and Clarke. Hooper&#39;s The Covent Garden Catalogues free to buyers Splendid Seed&#39;s and Bulbs at lour Seed Warehouse Celebrated for 50 Years for our FAMOUS DOUBLE STOCKS . These are amongst the most delightful and fragrant of Garden&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7peO_wrKogUC",
+      "etag": "7rVp9rgVNxc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7peO_wrKogUC",
+      "volumeInfo": {
+        "title": "Myths and Symbols in J.K. Rowling ́s Harry Potter and the Philosopher ́s Stone",
+        "authors": [
+          "Volker Geyer"
+        ],
+        "publisher": "GRIN Verlag",
+        "publishedDate": "2002-03-23",
+        "description": "Seminar paper from the year 2001 in the subject English Language and Literature Studies - Literature, grade: very good, University of Erfurt (Anglistics/ American Studies), language: English, abstract: 1. Introduction It’s beyond doubt that J.K. Rowling’s Harry Potter books are one of the biggest surprise and success in literature history. They influenced the youths’ reading habits in a never known way. What is this great success founded on? This question can’t be answered sweepingly. The reasons are many-sided. In my opinion, an important reason is the combination of the youths’ real world with the fantastic and mystic world. The youths find their real experiences at school, with parents, friends and enemies combined with a realm of witchcraft, symbols superhuman skills and dangerous adventures. But a lot of youths know a big part of the mystic world, too. Subconsciously the old fairy tales and legends are waked up again. And so the fascination from childhood days is swinging in the background while reading Harry Potter. The youth find again well-known symbols and myths, e.g. mystic numbers, ghosts, struggle between good and evil, transformation and invisibility, animals like dragons, owls, rats and mystic places like a dark wood, an old hut, secret passageways etc. But they discover or learn about new aspects of the mystic world by reading Harry Potter, e.g. the wish for never ending life, the philosopher’s stone, desire and craving, meaning of unicorn or the search for wisdom. They get new experiences and see some new aspects of their own life. These delicate net of myths and symbols woven in the books make they very exiting for adults, too. Besides some new ideas, there are a lot of traditional symbols and myths with different origins and meanings. In this paper I am describing only the most important symbols and myths. I am going to explain the general meaning from history and the specific meaning in Harry Potter and the Philosopher’s Stone. [...]",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783638117449"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3638117448"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 23,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.13.7.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7peO_wrKogUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7peO_wrKogUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.lv/books?id=7peO_wrKogUC&pg=PA6&dq=potter&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.lv/books?id=7peO_wrKogUC&dq=potter&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Myths_and_Symbols_in_J_K_Rowling_%CC%81s_Har.html?hl=&id=7peO_wrKogUC"
+      },
+      "saleInfo": {
+        "country": "LV",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "LV",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.lv/books/download/Myths_and_Symbols_in_J_K_Rowling_%CC%81s_Har-sample-epub.acsm?id=7peO_wrKogUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.lv/books/download/Myths_and_Symbols_in_J_K_Rowling_%CC%81s_Har-sample-pdf.acsm?id=7peO_wrKogUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7peO_wrKogUC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003ePotter\u003c/b\u003e . &lt; http : //www.childrens ministry.co.uk/html/f-harry-\u003cb\u003epotter\u003c/b\u003e.htm &gt; ) Unfortunately , the knowledge&#39;s development drives the myths away . But even in our modern and enlightened society we sometimes use myths to explain&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "g2lsPji3VlEC",
+      "etag": "fJRrx5OFPRo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/g2lsPji3VlEC",
+      "volumeInfo": {
+        "title": "Potter's American Monthly",
+        "publishedDate": "1880",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015035579526"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 844,
+        "printType": "BOOK",
+        "categories": [
+          "American literature"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.12.12.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=g2lsPji3VlEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=g2lsPji3VlEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.lv/books?id=g2lsPji3VlEC&pg=PA81&dq=potter&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=g2lsPji3VlEC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=g2lsPji3VlEC"
+      },
+      "saleInfo": {
+        "country": "LV",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=g2lsPji3VlEC&rdid=book-g2lsPji3VlEC&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "LV",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.lv/books/download/Potter_s_American_Monthly.epub?id=g2lsPji3VlEC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.lv/books/download/Potter_s_American_Monthly.pdf?id=g2lsPji3VlEC&hl=&output=pdf&sig=ACfU3U18a1bgjgxSLrMEa5OVFCZ5f950uA&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=g2lsPji3VlEC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... of our Eastern coast , but by the contiguous ocean to all the markets of the world ; inhabited as it is by an VOL . XIV . - 6 COURT HOUSE AT DOVER . We chose for the time of our visit the winter. ware . \u003cb\u003ePOTTER&#39;S\u003c/b\u003e. AMERICAN. MONTHLY ."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ioNUAnX3uRMC",
+      "etag": "xh86e9B3BT0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ioNUAnX3uRMC",
+      "volumeInfo": {
+        "title": "Beatrix Potter",
+        "authors": [
+          "Jayne Woodhouse"
+        ],
+        "publisher": "Heinemann Educational Books",
+        "publishedDate": "1999",
+        "description": "An introductory biography of the author and artist of many books for children, including the favorite \"Tale of Peter Rabbit.\"",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "157572667X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781575726670"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 28,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ioNUAnX3uRMC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ioNUAnX3uRMC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.lv/books?id=ioNUAnX3uRMC&q=potter&dq=potter&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.lv/books?id=ioNUAnX3uRMC&dq=potter&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Beatrix_Potter.html?hl=&id=ioNUAnX3uRMC"
+      },
+      "saleInfo": {
+        "country": "LV",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "LV",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ioNUAnX3uRMC&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003ePOTTER\u003c/b\u003e THE ORIGINAL ANDEREININN F.WARNE &amp; CO BEATRIX \u003cb\u003ePOTTER\u003c/b\u003e F. WARNE &amp; CO LA BIBLIOTHEQUE DE PIERRE LAPIN BEATRIX \u003cb\u003ePOTTER\u003c/b\u003e Gallimard ビアトリクス・ポターさらいえいしいちちこゆく A HISTÓRIA DO PEDRITO COELHO SAGAN OM PELLE KANIN Het&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "I0UuAAAAYAAJ",
+      "etag": "NjoXC0Kez2o",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/I0UuAAAAYAAJ",
+      "volumeInfo": {
+        "title": "The Potter's Craft",
+        "subtitle": "A Practical Guide for the Studio and Workshop",
+        "authors": [
+          "Charles Fergus Binns"
+        ],
+        "publishedDate": "1922",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NYPL:33433072128881"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 234,
+        "printType": "BOOK",
+        "categories": [
+          "Pottery"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.7.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=I0UuAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=I0UuAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.lv/books?id=I0UuAAAAYAAJ&q=potter&dq=potter&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.lv/books?id=I0UuAAAAYAAJ&dq=potter&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Potter_s_Craft.html?hl=&id=I0UuAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "LV",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "LV",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=I0UuAAAAYAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003epotter\u003c/b\u003e to maintain the wheel in its rightful place as , par excellence , the \u003cb\u003epotter&#39;s\u003c/b\u003e tool . No clay worker&#39;s studio should be without a wheel , but the particular form of wheel depends upon the nature of the circumstances under which&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ghc9rP2JUX8C",
+      "etag": "UHRboL+1RWI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ghc9rP2JUX8C",
+      "volumeInfo": {
+        "title": "Webster's Royal red book; or, Court and fashionable register",
+        "authors": [
+          "Webster A. and co"
+        ],
+        "publishedDate": "1847",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OXFORD:604279895"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 1018,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ghc9rP2JUX8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ghc9rP2JUX8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.lv/books?id=ghc9rP2JUX8C&pg=PA686&dq=potter&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ghc9rP2JUX8C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ghc9rP2JUX8C"
+      },
+      "saleInfo": {
+        "country": "LV",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=ghc9rP2JUX8C&rdid=book-ghc9rP2JUX8C&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "LV",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.lv/books/download/Webster_s_Royal_red_book_or_Court_and_fa.epub?id=ghc9rP2JUX8C&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ghc9rP2JUX8C&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003ePOTTER\u003c/b\u003e , Harold , esq . 58 POSTLETHWAITE , Jas . esq . \u003cb\u003ePOTTER\u003c/b\u003e , James , esq . 39 POTOUS , Demetrius , esq . 9 \u003cb\u003ePOTTER\u003c/b\u003e , J. Gerald , esq . 2 POTTS , Joseph , esq . 21 \u003cb\u003ePOTTER\u003c/b\u003e , Frank , esq . 73 Tavistock - place , W.C. POWELL , C. E. G.&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "cV9QAQAAMAAJ",
+      "etag": "VfzeDJJSnSU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/cV9QAQAAMAAJ",
+      "volumeInfo": {
+        "title": "Journal of the Proceedings of the Bishops, Clergy and Laity of the Protestant Episcopal Church in the United States of America",
+        "authors": [
+          "Episcopal Church. General Convention"
+        ],
+        "publishedDate": "1896",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "CHI:78354444"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 954,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.7.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=cV9QAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=cV9QAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.lv/books?id=cV9QAQAAMAAJ&pg=PA554&dq=potter&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=cV9QAQAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cV9QAQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "LV",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=cV9QAQAAMAAJ&rdid=book-cV9QAQAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "LV",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.lv/books/download/Journal_of_the_Proceedings_of_the_Bishop.epub?id=cV9QAQAAMAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=cV9QAQAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003ePotter\u003c/b\u003e , H. C. 7239 William Adelbert Masker , Jr. &quot; 28 , \u003cb\u003ePotter\u003c/b\u003e , H. C. 7240 Churchill Satterlee ... ،، 28 , \u003cb\u003ePotter\u003c/b\u003e , H. C. 7241 George Granville Merrill 28 . \u003cb\u003ePotter\u003c/b\u003e , H. C. 7242 Elbert Floyd Jones &quot; 28 , \u003cb\u003ePotter\u003c/b\u003e , H. C. 7243 Claudius&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "OHlQAAAAMAAJ",
+      "etag": "J356rGpfmzY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OHlQAAAAMAAJ",
+      "volumeInfo": {
+        "title": "A Potter's Book",
+        "authors": [
+          "Bernard Leach"
+        ],
+        "publishedDate": "1956",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015008058250"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 388,
+        "printType": "BOOK",
+        "categories": [
+          "Pottery"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.10.7.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=OHlQAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=OHlQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.lv/books?id=OHlQAAAAMAAJ&q=potter&dq=potter&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.lv/books?id=OHlQAAAAMAAJ&dq=potter&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/A_Potter_s_Book.html?hl=&id=OHlQAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "LV",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "LV",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=OHlQAAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003epotter\u003c/b\u003e of to - day . It is true that freightage of clay is a comparatively small item in his yearly budget , but contact with the source in nature of his clay , pigment , and glaze materials gives a \u003cb\u003epotter\u003c/b\u003e more control and scope for the&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2VIJAAAAIAAJ",
+      "etag": "PrKl8t0YZec",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2VIJAAAAIAAJ",
+      "volumeInfo": {
+        "title": "An Index to the Wills and Inventories Now Preserved in the Court of Probate, at Chester, from ...",
+        "authors": [
+          "Chester (England). Probate Registry",
+          "Church of England. Diocese of Chester. Bishop (1777-1787 : Porteus)"
+        ],
+        "publishedDate": "1887",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "STANFORD:36105035769806"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 404,
+        "printType": "BOOK",
+        "categories": [
+          "Inventories of decedents' estates"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "3.11.17.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2VIJAAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2VIJAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.lv/books?id=2VIJAAAAIAAJ&pg=PA214&dq=potter&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=2VIJAAAAIAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2VIJAAAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "LV",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=2VIJAAAAIAAJ&rdid=book-2VIJAAAAIAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "LV",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.lv/books/download/An_Index_to_the_Wills_and_Inventories_No.epub?id=2VIJAAAAIAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.lv/books/download/An_Index_to_the_Wills_and_Inventories_No.pdf?id=2VIJAAAAIAAJ&hl=&output=pdf&sig=ACfU3U2iAx26MVVTvV3O_gV1kIMWXLMdhw&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2VIJAAAAIAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003ePotter\u003c/b\u003e , Edmund , of Great Budworth ... ... ... 1670 \u003cb\u003ePotter\u003c/b\u003e , Edward , of Bickersteth , co . Lancaster , chapman ... 1664 \u003cb\u003ePotter\u003c/b\u003e , Ellen , of the City of Chester ... ... ... Admon 1676 \u003cb\u003ePotter\u003c/b\u003e , Gerrard , of Knowsley ... Admon with&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ecMwAAAAMAAJ",
+      "etag": "fIm1DeQh0co",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ecMwAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Genealogy of Some of the Descendants of Thomas Barrett, Sen., of Braintree, Mass., 1635",
+        "publishedDate": "1888",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "WISC:89062852413"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 306,
+        "printType": "BOOK",
+        "categories": [
+          "Family & Relationships"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.10.15.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ecMwAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ecMwAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.lv/books?id=ecMwAAAAMAAJ&pg=PA41&dq=potter&hl=&cd=11&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ecMwAAAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ecMwAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "LV",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=ecMwAAAAMAAJ&rdid=book-ecMwAAAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "LV",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.lv/books/download/Genealogy_of_Some_of_the_Descendants_of.epub?id=ecMwAAAAMAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ecMwAAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003ePotter\u003c/b\u003e , born in Winchendon , Mass . , September 9 , 1849 . Victoria \u003cb\u003ePotter\u003c/b\u003e ,, born in Winchendon . Mass . , April 1,1851 . Major \u003cb\u003ePotter\u003c/b\u003e ,, born in Castleton , Vermont . May 5. 1855 . Colonel \u003cb\u003ePotter\u003c/b\u003e ,, born in Winchendon . Mass&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "15Fb9LW55PoC",
+      "etag": "Cy+UBa83iro",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/15Fb9LW55PoC",
+      "volumeInfo": {
+        "title": "The Wisdom of Harry Potter",
+        "subtitle": "What Our Favorite Hero Teaches Us about Moral Choices",
+        "authors": [
+          "Edmund M. Kern"
+        ],
+        "publishedDate": "2003",
+        "description": "Edmund M. Kern argues that the attraction of these stories to children comes not only from the fantastical elements embedded in the plots, but also from their underlying moral messages. Children genuinely desire to follow Harry, as he confronts a host of challenges in an uncertain world, because of his desire to do the right thing. Harry's coherent yet flexible approach to dealing with evil reflects an updated form of Stoicism, says Kern. --from publisher description.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1591021332"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781591021339"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 300,
+        "printType": "BOOK",
+        "categories": [
+          "FAMILY & RELATIONSHIPS"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=15Fb9LW55PoC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=15Fb9LW55PoC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.lv/books?id=15Fb9LW55PoC&q=potter&dq=potter&hl=&cd=12&source=gbs_api",
+        "infoLink": "http://books.google.lv/books?id=15Fb9LW55PoC&dq=potter&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Wisdom_of_Harry_Potter.html?hl=&id=15Fb9LW55PoC"
+      },
+      "saleInfo": {
+        "country": "LV",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "LV",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=15Fb9LW55PoC&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003ePotter\u003c/b\u003e Novels , pp . 15-16 . 14. Eccleshare , Guide , pp . 77-82 and 92 ; Nel , Harry \u003cb\u003ePotter\u003c/b\u003e Novels , pp . 44-45 ; Alan Jacobs , &quot; Harry \u003cb\u003ePotter&#39;s\u003c/b\u003e Magic , First Things : The Journal of Religion and Public Life 99 ( 2000 ) : 35–38 ; and&nbsp;..."
+      }
+    }
+  ]
+}

@@ -9,8 +9,8 @@ class Book extends Equatable {
   final String coverImageUrl;
   final String? coverThumbnailUrl;
   final int pageCount;
-  final int ratingCount;
-  final int averageRating;
+  final int? ratingCount;
+  final double? averageRating;
   final String releaseYear;
   final String? faveId;
 
