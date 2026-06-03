@@ -9,6 +9,8 @@ class BookListItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('>>>> ${book.coverImageUrl}');
+
     return Padding(
       padding: .all(5),
       child: Row(
@@ -17,6 +19,7 @@ class BookListItem extends StatelessWidget {
             borderRadius: BorderRadius.circular(20.0),
             child: Image.network(
               book.coverImageUrl,
+              errorBuilder: (_, _, _) => Text(' Error'),
               width: 80,
               height: 88,
               fit: BoxFit.cover,
