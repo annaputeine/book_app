@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:books_app/model/book/book_response.dart';
-import '../model/favourites/favourite_response.dart';
+import 'package:books_app/data/model/book/book_response.dart';
+import '../model/favourite/favourite_response.dart';
 
 class BookApiClient {
   final Dio _dio;

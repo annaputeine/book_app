@@ -1,5 +1,5 @@
-import 'package:books_app/model/book/book.dart';
-import 'package:books_app/repository/book_repository.dart';
+import 'package:books_app/domain/model/book.dart';
+import 'package:books_app/domain/repository/book_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../api/book_api_client.dart';
 import 'dart:convert';

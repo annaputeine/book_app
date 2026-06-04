@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:books_app/page/book_favourites_page.dart';
+import 'package:books_app/presentation/page/book_favourites_page.dart';
 import 'package:flutter/material.dart';
-import 'package:books_app/page/book_detail_page.dart';
+import 'package:books_app/presentation/page/book_detail_page.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../model/book/book.dart';
-import '../repository/book_repository.dart';
+import '../../domain/model/book.dart';
+import '../../domain/repository/book_repository.dart';
 import '../widget/book_list_item.dart';
 
 class BooksSearchPage extends StatefulWidget {

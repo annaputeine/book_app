@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:books_app/model/book/book.dart';
+import 'package:books_app/domain/model/book.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'book_response.g.dart';

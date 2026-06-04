@@ -1,11 +1,11 @@
-import 'package:books_app/api/favourite_api_client.dart';
+import 'package:books_app/data/api/favourite_api_client.dart';
 import 'package:books_app/my_app.dart';
-import 'package:books_app/repository/book_repository.dart';
-import 'package:books_app/repository/network_book_repository.dart';
+import 'package:books_app/domain/repository/book_repository.dart';
+import 'package:books_app/data/repository/network_book_repository.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'api/book_api_client.dart';
+import 'data/api/book_api_client.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,4 +1,4 @@
-import 'package:books_app/page/books_search_page.dart';
+import 'package:books_app/presentation/page/books_search_page.dart';
 import 'package:flutter/material.dart';
 
 class BooksMainPage extends StatelessWidget {

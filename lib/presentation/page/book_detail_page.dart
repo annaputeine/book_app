@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../model/book/book.dart';
-import '../repository/book_repository.dart';
+import '../../domain/model/book.dart';
+import '../../domain/repository/book_repository.dart';
 
 class BookDetailPage extends StatefulWidget {
   final Book book;

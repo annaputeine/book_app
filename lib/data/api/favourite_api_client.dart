@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import '../model/favourites/favourite_object.dart';
+import '../model/favourite/favourite_object.dart';
 
 
 class FavouriteApiClient {
