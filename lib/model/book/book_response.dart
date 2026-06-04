@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:books_app/model/book.dart';
+import 'package:books_app/model/book/book.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'book_response.g.dart';
@@ -77,7 +77,16 @@ class VolumeInfo extends Equatable {
   factory VolumeInfo.fromJson(Map<String, dynamic> json) => _$VolumeInfoFromJson(json);
 
   @override
-  List<Object?> get props => [title, subtitle, description, authors, imageLinks, pageCount, publishedDate];
+  List<Object?> get props => [
+    title,
+    subtitle,
+    description,
+    authors,
+    imageLinks,
+    pageCount,
+    averageRating,
+    publishedDate,
+  ];
 }
 
 @JsonSerializable(explicitToJson: true, createToJson: false)

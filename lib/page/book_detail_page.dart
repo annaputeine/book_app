@@ -1,10 +1,27 @@
 import 'package:flutter/material.dart';
-import '../model/book.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../model/book/book.dart';
+import '../repository/book_repository.dart';
 
-class BookDetailPage extends StatelessWidget {
+class BookDetailPage extends StatefulWidget {
   final Book book;
 
   const BookDetailPage({super.key, required this.book});
+
+  @override
+  State<BookDetailPage> createState() => _BookDetailPageState();
+}
+
+class _BookDetailPageState extends State<BookDetailPage> {
+  late final BookRepository _bookRepository;
+  bool _isFavourite = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _bookRepository = context.read();
+    _setIsFavourite();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +49,7 @@ class BookDetailPage extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(20.0),
                   child: Image.network(
-                    book.coverImageUrl,
+                    widget.book.coverImageUrl,
                     width: double.infinity,
                     height: 196,
                     fit: BoxFit.cover,
@@ -42,7 +59,7 @@ class BookDetailPage extends StatelessWidget {
                   height: 20,
                 ),
                 Text(
-                  book.title,
+                  widget.book.title,
                   style: TextStyle(
                     color: Colors.grey[900],
                     fontWeight: .w700,
@@ -50,7 +67,7 @@ class BookDetailPage extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  book.subtitle,
+                  widget.book.subtitle,
                   style: TextStyle(
                     color: Colors.grey[900],
                     fontWeight: .w600,
@@ -61,7 +78,7 @@ class BookDetailPage extends StatelessWidget {
                   height: 8,
                 ),
                 Text(
-                  book.authors,
+                  widget.book.authors,
                   style: TextStyle(
                     color: Color(0xFF8c6c0b),
                     fontSize: 16,
@@ -72,15 +89,15 @@ class BookDetailPage extends StatelessWidget {
                 ),
                 Row(
                   children: [
-                    _LinedTextBox(text: "Released", number: book.releaseYear),
+                    _LinedTextBox(text: "Released", number: widget.book.releaseYear),
                     SizedBox(
                       width: 12,
                     ),
-                    _LinedTextBox(text: "Pages", number: book.pageCount.toString()),
+                    _LinedTextBox(text: "Pages", number: widget.book.pageCount.toString()),
                     SizedBox(
                       width: 12,
                     ),
-                    _LinedTextBox(text: "Rating", number: book.averageRating.toString()),
+                    _LinedTextBox(text: "Rating", number: widget.book.averageRating.toString()),
                   ],
                 ),
                 SizedBox(
@@ -98,7 +115,7 @@ class BookDetailPage extends StatelessWidget {
                   height: 12,
                 ),
                 Text(
-                  book.description,
+                  widget.book.description,
                   style: TextStyle(
                     color: Colors.grey[900],
                     //fontWeight: .w600,
@@ -113,7 +130,37 @@ class BookDetailPage extends StatelessWidget {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () async {
+          if (_isFavourite) {
+            await _bookRepository.removeFavourite(widget.book.id);
+          } else {
+            await _bookRepository.addFavourite(widget.book.id);
+          }
+
+          setState(() {
+            _isFavourite = !_isFavourite;
+          });
+        },
+        backgroundColor: Color(0xFF8c6c0b),
+        shape: const CircleBorder(),
+        child: Icon(
+          _isFavourite ? Icons.favorite : Icons.favorite_border,
+          color: Colors.white,
+          size: 24,
+        ),
+      ),
     );
+  }
+
+  Future<void> _setIsFavourite() async {
+    final value = await _bookRepository.checkFavourite(
+      widget.book.id,
+    );
+
+    setState(() {
+      _isFavourite = value;
+    });
   }
 }
 

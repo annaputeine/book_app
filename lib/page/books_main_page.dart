@@ -12,7 +12,6 @@ class BooksMainPage extends StatelessWidget {
         bottom: false,
         child: BooksSearchPage(),
       ),
-
     );
   }
 }

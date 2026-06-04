@@ -1,10 +1,11 @@
 import 'dart:async';
 
+import 'package:books_app/page/book_favourites_page.dart';
 import 'package:flutter/material.dart';
 import 'package:books_app/page/book_detail_page.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../model/book.dart';
+import '../model/book/book.dart';
 import '../repository/book_repository.dart';
 import '../widget/book_list_item.dart';
 
@@ -90,11 +91,11 @@ class _BooksSearchPageState extends State<BooksSearchPage> {
               child: FutureBuilder<List<Book>>(
                 future: _booksFuture,
                 builder: (context, snapshot) {
-                  print('state=${snapshot.connectionState}');
-                  print('hasData=${snapshot.hasData}');
-                  print('hasError=${snapshot.hasError}');
-                  print('data=${snapshot.data}');
-                  print('error=${snapshot.error}');
+                  //print('state=${snapshot.connectionState}');
+                  //print('hasData=${snapshot.hasData}');
+                  //print('hasError=${snapshot.hasError}');
+                  //print('data=${snapshot.data}');
+                  //print('error=${snapshot.error}');
                   if (snapshot.connectionState == ConnectionState.waiting) {
                     return const Center(
                       child: CircularProgressIndicator(),
@@ -117,6 +118,16 @@ class _BooksSearchPageState extends State<BooksSearchPage> {
               ),
             ),
           ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => _showFavourites(context),
+        backgroundColor: Color(0xFF8c6c0b),
+        shape: const CircleBorder(),
+        child: const Icon(
+          Icons.favorite,
+          color: Colors.white,
+          size: 24,
         ),
       ),
     );
@@ -151,6 +162,13 @@ class _BooksSearchPageState extends State<BooksSearchPage> {
     context,
     MaterialPageRoute(
       builder: (context) => BookDetailPage(book: book),
+    ),
+  );
+
+  void _showFavourites(BuildContext context) => Navigator.push(
+    context,
+    MaterialPageRoute(
+      builder: (context) => FavouritesPage(),
     ),
   );
 }

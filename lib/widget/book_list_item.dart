@@ -1,4 +1,4 @@
-import 'package:books_app/model/book.dart';
+import 'package:books_app/model/book/book.dart';
 import 'package:flutter/material.dart';
 
 class BookListItem extends StatelessWidget {
@@ -9,7 +9,6 @@ class BookListItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('>>>> ${book.coverImageUrl}');
 
     return Padding(
       padding: .all(5),
