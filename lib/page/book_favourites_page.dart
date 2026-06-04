@@ -25,9 +25,16 @@ class _FavouritesPageState extends State<FavouritesPage> {
   Widget build(BuildContext context) {
     late Future<List<Book>>? _favouritesFuture = _bookRepository.getFavouriteBooks();
     return Scaffold(
+      backgroundColor: Color(0xFFebddc0),
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text("your favourite books"),
+        title: Text('Favourite books'),
+        titleTextStyle: TextStyle(
+          color: Colors.grey[900],
+          fontWeight: .w600,
+          fontSize: 20,
+        ),
+        centerTitle: false,
+        backgroundColor: Color(0xFFebddc0),
       ),
       body: FutureBuilder<List<Book>>(
         future: _favouritesFuture,
